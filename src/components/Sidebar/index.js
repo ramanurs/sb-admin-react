@@ -236,6 +236,11 @@ class Sidebar extends Component {
                     Login
                   </a>
                 </li>
+                <li>
+                  <a href="" onClick={(e) => { e.preventDefault(); history.push('/upload'); }} >
+                    Upload
+                  </a>
+                </li>
               </ul>
             </li>
 

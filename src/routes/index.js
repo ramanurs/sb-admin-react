@@ -24,6 +24,7 @@ import notification from './dashboardPages/notification';
 import panelwells from './dashboardPages/panelWells';
 import typography from './dashboardPages/typography';
 import blank from './dashboardPages/blank';
+import upload from './dashboardPages/upload';
 import error from './error';
 
 import Header from '../components/Header';
@@ -64,7 +65,7 @@ export default [
       typography,
       // register,
       blank,
-
+      upload,
       // place new routes before...
       // content,
       error,
